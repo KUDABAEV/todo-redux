@@ -1,6 +1,6 @@
 {
   "extends": ["react-app", "react-app/jest"],
-  "plugins": ["prettier"],
+  "plugins": ["react", "prettier", "import"],
   "rules": {
     "prettier/prettier": "error",
     "react/jsx-no-target-blank": "off"
